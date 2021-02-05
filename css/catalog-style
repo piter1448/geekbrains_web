@@ -1,0 +1,48 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 231px;
+    padding-right: 240px;
+    padding-top: 18px;
+}
+
+.search {
+    padding-left: 41px;
+}
+
+.container {
+    width: 1600px;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 75px;
+    background: #222222;
+
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin-left: 33px;
+    padding-top: 12px;
+}

@@ -6,7 +6,7 @@
 
 a {
     text-decoration: none;
-  
+
 }
 
 .clearfix:after {
@@ -48,230 +48,238 @@ a {
     padding-top: 12px;
 }
 
-section{
+section {
     background: #F8F3F4;
     height: 148px;
     display: flex;
-       }
-
-.new{
-     margin: 59px 0 0 230px;
-    font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;
-    color: #F16D7F;
 }
 
-.new-menu{
-display: flex;
-flex-direction: row;
-margin-top: 65px;
-margin-right: 230px;
-font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-  
+.new {
+    margin: 59px 0 0 230px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.new-menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px;
+    margin-right: 230px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+
 }
 
 .new-menu-style {
-font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-color: #636363;
-  }
-
-.new-menu-active{
     font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 17px;
-color: #F16D7F;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    text-transform: uppercase;
+}
+
+.new-menu-active {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    text-transform: uppercase;
 }
 
 
-.social{
+.social {
     display: block;
-  margin-right: 230px;
+    margin-right: 230px;
     margin-top: 24px;
-       }
+}
 
-.background{
+.background {
     display: flex;
     background-color: #F7F7F7;
     justify-content: space-between;
     height: 777px;
-   
+
 }
 
 .background-arrow-back {
-        padding: 365px 0 365px 0px;
-    margin-left: 0px;    
+    padding: 365px 0 365px 0px;
+    margin-left: 0px;
 }
 
 .background-arrow-forward {
     padding: 365px 0 365px;
-    margin-right: 0px;    
+    margin-right: 0px;
 }
 
-.women-collection{
+.women-collection {
     text-align: center;
-     width: 1141px;
-   height: 601px;
+    width: 1141px;
+    height: 601px;
     margin-top: -50px;
     background-color: white;
     border: 1px solid #EAEAEA;
+
 }
 
 .women-collection h3 {
     font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-padding-top: 64.54px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 64.54px;
     padding-bottom: 12.1px;
-color: #F16D7F;
+    color: #F16D7F;
+    text-transform: uppercase;
 }
 
 .women-collection h2 {
     font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 22px;
-padding-top: 12.1px;
-color: #4D4D4D;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 12.1px;
+    color: #4D4D4D;
+    text-transform: uppercase;
 }
 
 .women-collection p {
     font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-padding-top: 48.41px;
-color: #5E5E5E;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding-top: 48.41px;
+    color: #5E5E5E;
 }
 
 .women-collection h1 {
     font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 29px;
-padding-top: 32.27px;
-color: #EF5B70;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 32.27px;
+    color: #EF5B70;
 }
 
-.filter{
-     display: flex;
-   }
-.filter svg{
+.filter {
+
+    display: flex;
+}
+
+.filter svg {
     padding-left: 9px;
 }
 
-.filter-color{
+.filter-color {
     padding-right: 9px;
-  margin: 64.54px 22.98px 48.41px 372px;
+
+    margin: 64.54px 22.98px 48.41px 372px;
+    text-transform: uppercase;
 }
 
-.filter-size{
-     padding-right: 9px;
-   margin: 64.54px 22.98px 48.41px 22.29px;
-   }
+.filter-size {
+    padding-right: 9px;
+    margin: 64.54px 22.98px 48.41px 22.29px;
+    text-transform: uppercase;
+}
 
-.filter-quantity{
-          margin: 64.54px 395.98px 48.41px 22.98px; 
+.filter-quantity {
+    margin: 64.54px 395.98px 48.41px 22.98px;
+    text-transform: uppercase;
 }
 
 
- .button {
-     
+.button {
+
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-   
+
     color: #F26376;
-    
+
     border: 1px solid #FF6A6A;
     padding: 15px 39px;
 
 }
-     
-.button img{
+
+.button img {
     padding-right: 22.99px;
-    padding-top: 
+    padding-top:
 }
-    .goods{
-    
+
+.goods {
+
     margin-top: 128px;
     margin-left: 230px;
     margin-right: 230px;
-        margin-bottom: 128px;
-   display: flex;
-     flex-direction: row;
-        box-sizing: border-box;
-        width: 1141px;
-    
+    margin-bottom: 128px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 1141px;
+
 }
 
-
-
-.three-goods{
-          flex-direction: row;
-}
-
-.good-head{
+.good-head {
     margin-top: 25.35px;
     margin-left: 18px;
     font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 16px;
-color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    text-transform: uppercase;
 }
 
-.good-text{
-    
+.good-text {
+
     margin-top: 12.65px;
     margin-left: 16.46px;
     font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-color: #5D5D5D;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
 }
 
-.good-price{
+.good-price {
     margin-top: 18px;
     margin-left: 18.41px;
     font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 
-color: #F16D7F;
+    color: #F16D7F;
 }
-   
+
 .subscribe {
     background-image: url(../img/sea.png);
     height: 448px;
     width: 1600px;
     display: flex;
-   
+
 
 }
 
@@ -308,7 +316,7 @@ color: #F16D7F;
 
 .li-subscribe {
     font-family: Lato;
-
+    text-transform: uppercase;
     font-size: 24px;
     line-height: 167.2%;
     text-align: center;
@@ -349,4 +357,3 @@ footer {
     line-height: 19px;
     color: #FBFBFB;
 }
-

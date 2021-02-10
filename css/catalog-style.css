@@ -6,7 +6,7 @@
 
 a {
     text-decoration: none;
-  
+
 }
 
 .clearfix:after {
@@ -48,163 +48,169 @@ a {
     padding-top: 12px;
 }
 
-section{
+section {
     background: #F8F3F4;
     height: 148px;
     display: flex;
-   
-    }
 
-.new{
-     margin: 59px 0 0 230px;
-    font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;
-    color: #F16D7F;
 }
 
-.new-menu{
-display: flex;
-flex-direction: row;
-margin-top: 65px;
-margin-right: 230px;
-font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-  
+.new {
+    margin: 59px 0 0 230px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+
+.new-menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px;
+    margin-right: 230px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+
 }
 
 .new-menu-style {
-font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-color: #636363;
-  }
-
-.new-menu-active{
     font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 17px;
-color: #F16D7F;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
 }
 
-.filter{
+.new-menu-active {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.filter {
     display: flex;
 }
 
-.filter-menu{
+.filter-menu {
     font-family: Lato;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
     margin: 51px 0 0 230px;
+
 }
 
-.filter-options{
+.filter-options {
     display: flex;
     flex-direction: row;
     margin-top: 65px;
     margin-left: 320px;
-      }
+    text-transform: uppercase;
+}
 
-.filter-margin{
+.filter-margin {
     margin-right: 27.98px;
 }
-.filter-option{
+
+.filter-option {
     font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-color: #6F6E6E;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
 
 }
 
-.goods{
+
+
+.goods {
     margin-top: 64px;
     margin-left: 230px;
     margin-right: 230px;
-   display: flex;
-     flex-direction: row;
-        box-sizing: border-box;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
-.good{
-
-      
+.good {
+    width: 360px;
+    height: 582px;
 }
 
-.three-goods{
-          flex-direction: row;
-}
 
-.good-head{
+
+.good-head {
     margin-top: 25.35px;
     margin-left: 18px;
     font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 16px;
-color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    text-transform: uppercase;
 }
 
-.good-text{
-    
+.good-text {
+
     margin-top: 12.65px;
     margin-left: 16.46px;
     font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
-color: #5D5D5D;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
 }
 
-.good-price{
+.good-price {
     margin-top: 18px;
     margin-left: 18.41px;
     font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 
-color: #F16D7F;
+    color: #F16D7F;
 }
 
 .pagination {
     display: flex;
     border: 1px solid #EBEBEB;
-  margin: 48px 672px 96.5px 644px;
+    margin: 48px 672px 96.5px 644px;
     width: 302.91px;
     height: 43px;
-    
-   
+
+
 }
 
 .pagination a {
     padding-top: 12px;
     font-family: Lato;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 19px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
     color: #EBEBEB;
-  
-    padding: 
-    text-decoration: none;
+
+    padding:
+        text-decoration: none;
 }
 
 
@@ -230,8 +236,8 @@ footer {
     color: #FBFBFB;
 }
 
-.social{
+.social {
     display: block;
-  margin-right: 230px;
+    margin-right: 230px;
     margin-top: 24px;
-       }
+}

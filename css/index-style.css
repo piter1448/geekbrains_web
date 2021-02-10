@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "lato";
+    src: url("fonts/lato.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -29,7 +36,7 @@ a {
     box-sizing: border-box;
 }
 
-.header {
+header {
     height: 75px;
     background: #222222;
 
@@ -58,61 +65,76 @@ a {
     margin-bottom: 381px;
 }
 
-.deal {
-    margin-top: 35px;
-    border-spacing: 30px;
 
+
+.deals {
+    margin-top: 35px;
+    display: flex;
+    height: 260px;
+    width: 1140px;
 }
 
-.deal-tr {}
 
-.table-img {
+.woman-deal {
+    background: url(../img/Component%201.png);
     width: 360px;
     height: 260px;
+    padding-top: 105px;
+    background-repeat: no-repeat;
 }
 
-.table-p1 {
+.men-deal {
+    margin-left: 30px;
+    background: url(../img/Component%202.png);
+    width: 360px;
+    height: 260px;
+    padding-top: 105px;
+    background-repeat: no-repeat;
+}
+
+.kids-deal {
+    margin-left: 30px;
+    background: url(../img/Component%203.png);
+    width: 360px;
+    height: 260px;
+    padding-top: 105px;
+    background-repeat: no-repeat;
+}
+
+.accs {
+    margin-top: 30px;
+    background: url(../img/Component%204.png);
+    width: 1140px;
+    height: 180px;
+    padding-top: 65px;
+    background-repeat: no-repeat;
+}
+
+
+.main-deal {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
-.table-p2 {
+.main-deal-option {
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-
+    text-transform: uppercase;
     color: #F16D7F;
 }
 
-.deal-td1 {
-    background-image: url(../img/Component%201.png);
 
-}
-
-.deal-td2 {
-    background-image: url(../img/Component%202.png);
-}
-
-.deal-td3 {
-    background-image: url(../img/Component%203.png);
-}
-
-.deal-td4 {
-    background-image: url(../img/Component%204.png);
-    width: 1140px;
-    height: 180px;
-}
-
-.feature {
+.feature h1 {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -120,16 +142,9 @@ a {
     line-height: 36px;
     text-align: center;
     margin-top: 96px;
-
-
 }
 
-.feature-table {
-    border-spacing: 30px;
-    margin-top: 18px;
-}
-
-.feature1 {
+.feature p {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
@@ -140,48 +155,64 @@ a {
     margin-top: 6px;
 }
 
-.p1-feature {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 16px;
-    text-Align: Left;
-    color: #000000;
-    padding-top: 25.35px;
-    padding-left: 16.46px;
+.featured-items {
+    display: flex;
+    margin-top: 48px;
+    height: 1395px;
+    width: 1140px;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.p2-feature {
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.featured-item {
+    width: 360px;
+    height: 582px;
+    background-color: #F8F8F8;
+    margin-bottom: 30px;
+}
+
+.featured-item h1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 25.35px;
+    margin-left: 18px;
+
+}
+
+.featured-item p {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    text-Align: Left;
+    margin: 12.65px 0 0 16.46px;
     color: #5D5D5D;
-    padding-top: 12.65px;
-    padding-left: 16.46px;
 }
 
-.p3-feature {
-
+.featured-item h2 {
     font-family: Lato;
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    text-Align: Left;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 18px 0 0 18.41px;
     color: #F16D7F;
-    padding-top: 18px;
-    padding-left: 16.46px;
-    padding-bottom: 20px;
+    ;
 }
 
-.feature-td1 {
-    width: 230px;
-    background-color: #F8F8F8;
-}
 
 .button-browse {}
 
@@ -192,55 +223,59 @@ a {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-
     color: #F26376;
-    margin-left: 695px;
     border: 1px solid #FF6A6A;
     padding: 15px 39px;
+    margin-top: 18px;
 
 }
 
-.plus {
+.delivery-info {
+    margin-top: 191px;
     background: black;
     height: 341px;
-    width: 100%;
-    border-spacing: 30px;
-    margin-top: 65px;
-}
-
-.plus-td {}
-
-.plus-img {
-
-    display: block;
+    display: flex;
 
 }
 
-.table-plus-p1 {
+.delivery h1 {
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     font-size: 19.96px;
     line-height: 24px;
-    color: white;
+    color: #FBFBFB;
     text-align: center;
-    padding-top: 28.07px;
+    margin-top: 28.07px;
 }
 
-.table-plus-p2 {
+.delivery p {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
     font-size: 13.972px;
     line-height: 17px;
     text-align: center;
-    padding-top: 16px;
     color: #FBFBFB;
+    margin-top: 16px;
+}
+
+.delivery img {
+
+    margin-top: 103px;
+    display: flex;
+
 
 }
 
+.delivery {}
+
+
+
+
+
 .subscribe {
-    background-image: url(img/sea.png);
+    background-image: url(../img/sea.png);
     height: 448px;
     width: 1600px;
     display: flex;
@@ -280,7 +315,7 @@ a {
 
 .li-subscribe {
     font-family: Lato;
-
+    text-transform: uppercase;
     font-size: 24px;
     line-height: 167.2%;
     text-align: center;
@@ -301,7 +336,7 @@ input {
 }
 
 
-.footer {
+footer {
     height: 79px;
     width: 1600px;
     left: 0px;
@@ -323,8 +358,8 @@ input {
     color: #FBFBFB;
 }
 
-.social{
+.social {
     display: block;
-  margin-right: 230px;
+    margin-right: 230px;
     margin-top: 24px;
-       }
+}

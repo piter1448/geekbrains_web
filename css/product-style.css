@@ -26,7 +26,8 @@ a {
 }
 
 .container {
-    width: 1600px;
+    width: 100%;
+    max-width: 1600px;
     box-sizing: border-box;
 }
 
@@ -356,4 +357,38 @@ footer {
     font-size: 16px;
     line-height: 19px;
     color: #FBFBFB;
+}
+
+/* ========= @media ========= */
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        box-sizing: border-box;
+    }
+
+    .woman-good {
+        display: none;
+    }
+
+    .subscribe {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 480px;
+        box-sizing: border-box;
+    }
+
+    .man-good-hide {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
 }

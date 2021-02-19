@@ -26,7 +26,8 @@ a {
 }
 
 .container {
-    width: 1600px;
+    width: 100%;
+    max-width: 1600px;
     box-sizing: border-box;
 }
 
@@ -240,4 +241,30 @@ footer {
     display: block;
     margin-right: 230px;
     margin-top: 24px;
+}
+
+/* ========= @media ========= */
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        box-sizing: border-box;
+    }
+
+    .subscribe {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 480px;
+        box-sizing: border-box;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
